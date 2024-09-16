@@ -16,6 +16,15 @@ We do **not** have a solution for above error as of yet. :(
 
 If not error, continue:
 
+
+```
+$ pip install -U pip setuptools wheel
+```
+
+```
+$ pip install -U spacy
+```
+
 Run the following command which will download the [spacy](https://spacy.io/usage/models) NLP language model.
 
 ```
@@ -28,8 +37,8 @@ $ python -m spacy download en_core_web_md
 /home/gitpod/.pyenv/versions/3.12.6/bin/python3: No module named spacy
 ```
 
-We do **not** have a solution for above error as of yet. :(
+If so, make sure you have ran ```$ pip install -U spacy```. Then try again.
 
-
+OPTIONAL: The [spaCy VSCode Extension](https://github.com/explosion/spacy-vscode) provides additional tooling and features for working with spaCy’s config files. 
 
 MORE
