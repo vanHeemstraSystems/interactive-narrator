@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% from 'fields.html' import render_field %}
+
+{% block title %} Interactive Narrator {% endblock title %}
+{% block main %}
+    <div id="showcase-row" class="row">
+        <div id="intro-left" class="col-lg-4">
+            <div id="intro-text-left">
+            <h2 id="intro-text-left-slogan">Welcome to Interactive Narrator</h2>
+                <h5 id="intro-text-left-slogan-subquote">Part of the GRIMM framework</h5>
+            <p>GRIMM is your go-to method for creating high quality user stories.
+                It offers guidelines and
+                three software tools specifically engineered to help you
+                create, update and present your software requirements. Use it as a
+                process or pick any of the four tools.</p>
+                <br>
+                <h4>The GRIMM process is:</h4>
+                <ul class="list-inline">
+                    <li>QUS <span class="glyphicon glyphicon-chevron-right"></span></li>
+                    <li>AQUSA <span class="glyphicon glyphicon-chevron-right"></span> </li>
+                    <li>Visual Narrator <span class="glyphicon glyphicon-chevron-right"></span></li>
+                    <li>Interactive Narrator</li>
+                </ul>
+            <a href="/register" class="btn btn-lg btn-success">Start</a>
+
+            </div>
+        </div>
+        <div id="intro-right" class="col-lg-8">
+            <div id="welcome-content">
+{#                <div class="page-header">#}
+{#                    <h1 id="main-heading">Interactive Narrator</h1>#}
+{#                </div>#}
+                <div id="homepage-slider" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#homepage-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#homepage-slider" data-slide-to="1" class=""></li>
+                        <li data-target="#homepage-slider" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                               <img src="img/slider_few_nodes.png" alt="a zoomed in selection of the network diagram">
+                                <div class="slide1"></div>
+                                <div class="carousel-caption">
+{#                                    <h4>Interactive Narrator</h4>#}
+{#                                    <p>...is awesome!</p>#}
+                                </div>
+                        </div>
+                         <div class="item">
+                             <img src="img/slider_many_nodes.png" alt="a broad view of the network diagram">
+                            <div class="slide2"></div>
+                            <div class="carousel-caption">
+{#                                <h4>Interactive Narrator</h4>#}
+{#                                <p>...is awesome!</p>#}
+                            </div>
+                        </div>
+                         <div class="item">
+                             <img src="img/slider_zoomed_in.png" alt="a zoomed in view of the network diagram">
+                            <div class="slide3"></div>
+                            <div class="carousel-caption">
+{#                                <h4>Interactive Narrator</h4>#}
+{#                                <p>...is awesome!</p>#}
+                            </div>
+                    </div>
+            </div>
+                <a class="left carousel-control" href="#homepage-slider" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left "></span>
+                </a>
+                <a class="right carousel-control" href="#homepage-slider" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+            </div> <!-- End #welcome-content -->
+        </div> <!-- End col-8-->
+    </div> <!-- End Row-->
+    <div id="slogan-row" class="row">
+        <h2 id="slogan">"Analyze, Perfect and Visualize Your User Stories with GRIMM"</h2>
+    </div>
+    <div id="introtext-row" class="row row-eq-height">
+        <div id="qus-introtext" class="col-lg-3">
+            <h3>Quality User Story Framework</h3>
+            <i><h5>A User Story Framework</h5></i>
+            <p>Quality User Story Framework is a collection of quality criteria for
+individual user stories as well as sets of user stories. Prevent ambiguity from turning into wrong
+assumptions by teaching this simple framework to the entire software development team.</p>
+            <a href="https://garmlucassen.nl/post/158159491266/evaluating-grimm-user-stories" class="btn btn-md">Read More</a>
+        </div>
+        <div id="aqusa-introtext" class="col-lg-3">
+            <h3>AQUSA</h3>
+            <i><h5>Automated Syntacical User Story Analysis</h5></i>
+            <p>Our first tool, AQUSA, helps you apply the QUS-framework
+                by analyzing your user stories and providing feedback on how to improve them.
+                It highlights your areas of improvement. With AQUSA, you will really
+                make the perfect user stories.
+            </p>
+            <a href="https://aqusa.nl" class="btn btn-md">Start Using AQUSA</a>
+        </div>
+        <div id="vn-introtext" class="col-lg-3">
+            <h3>Visual Narrator</h3>
+            <i><h5>Conceptual Model Generation</h5></i>
+            <p>At the centre of the GRIMM toolkit is Visual Narrator, which uses Natural Language processing techniques
+                to analyze your user stories. The tool can generate functional models in the form of HTML-reports and Ontologies.
+            </p>
+            <a href="https://github.com/MarcelRobeer/VisualNarrator/" class="btn btn-md">GitHub</a>
+        </div>
+        <div id="in-introtext" class="col-lg-3">
+            <h3>Interactive Narrator</h3>
+            <i><h5>Interactive Conceptual Models</h5></i>
+            <p>
+                Interactive Narrator represents the final stage of the GRIMM-process. It visualizes your user stories into
+                a touch screen friendly interactive diagram. Interactive Narrator helps initiate
+                fruitful discussion about software requirements.
+            </p>
+            <a href="/register" class="btn btn-md btn">Start Using IN</a>
+        </div>
+    </div>
+
+{% endblock main %}

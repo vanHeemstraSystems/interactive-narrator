@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% from 'fields.html' import render_field %}
+
+{% block title %} Register {% endblock title %}
+{% block main %}
+<div class="registration">
+    <div class="registration-screen">
+        	<div class="registration-title">
+				<h1>Sign Up</h1>
+			</div>
+
+        <br>
+
+        <p>
+            Please sign up for an account to start using Interactive Narrator. All fields are mandatory.
+        </p>
+
+        <br>
+        <form class="registration-form" action="" method="post" enctype=multipart/form-data name="submit">
+            {{ render_field(form.username, maxlength=255, placeholder="the username of your choice") }}
+            {{ render_field(form.company_name, maxlength=255, placeholder="the name of your company") }}
+            {{ render_field(form.email, maxlength=255, placeholder="your e-mail adress") }}
+            {{ render_field(form.password, maxlength=255, placeholder="your new password") }}
+
+            {{ render_field(form.confirm, maxlength=255, placeholder="your password again") }}
+
+            {# {{ render_field(form.accept_tos, maxlength=255, placeholder="") }}#}
+
+
+            <div class="form-group">
+                {{ form.submit }}
+                {#
+                <button id=registration-submit type="submit" value="Sign Up" class="btn btn-default">Sign Up</button>
+                #}
+            </div>
+            {% if error %}
+            <p class="error"><strong>Error: </strong>{{error}}</p>
+            {% endif %}
+        </form>
+
+
+        {# MESSAGE FLASHING#}
+        {# {% with messages = get_flashed_messages() %}#}
+        {# {% if messages %}#}
+        {#
+        <ul class=flashes>#}
+            {# {% for message in messages %}#}
+            {#
+            <li>{{ message }}</li>
+            #}
+            {# {% endfor %}#}
+            {#
+        </ul>
+        #}
+        {# {% endif %}#}
+        {# {% endwith %}#}
+
+    </div>
+</div>
+{% endblock main %}

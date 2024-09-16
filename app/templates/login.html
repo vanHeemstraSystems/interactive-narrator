@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% from 'fields.html' import render_field %}
+{% block title %} Login {% endblock title %}
+{% block main %}
+
+{#{% if session['logged_in'] %}#}
+{#    <p>You're logged in already!</p>#}
+{#{% else %}#}
+
+    <div class="login">
+		<div class="login-screen">
+			<div class="login-title">
+				<h1>Login</h1>
+			</div>
+
+			<form class="login-form" action="/login" method="post" enctype=multipart/form-data name="loginform">
+				    {{ render_field(form.username, maxlength=255, placeholder="your username") }}
+                    {{ render_field(form.password, maxlength=255, placeholder="your password") }}
+{#                    {{ render_field(form.remember) }}#}
+
+                <div class="form-group">
+                    <button id=login-submit type="submit" value="Log in" class="btn btn-default">Log in</button>
+                </div>
+            <a id="forgot-password" href="/resetpassword">forgot password</a>
+
+                {% if error %}
+			        <p class="error"><strong>Error: </strong>{{error}}</p>
+		        {% endif %}
+            </form>
+
+		</div>
+	</div>
+{#    </form>#}
+{#{% endif %}#}
+
+
+{#  MESSAGE FLASHING  #}
+{#    {% with messages = get_flashed_messages() %}#}
+{#  {% if messages %}#}
+{#    <ul class=flashes>#}
+{#    {% for message in messages %}#}
+{#      <li>{{ message }}</li>#}
+{#    {% endfor %}#}
+{#    </ul>#}
+{#  {% endif %}#}
+{#{% endwith %}#}
+
+{% endblock main %}

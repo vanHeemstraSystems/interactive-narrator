@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% from 'fields.html' import render_field %}
+{% block title %} Contact {% endblock title %}
+{% block main %}
+    <div class="contact">
+    <div class="contact-screen">
+        	<div class="contact-title">
+				<h1>Contact Us</h1>
+			</div>
+
+        <p>
+            Interested in using Interactive Narrator? Want to share your opinion? We would love to hear from you!
+            You can also send an email to interactivenarratoruu at gmail.
+        </p>
+        <p>
+            Interactive Narrator has been developed at Utrecht University by:
+        </p>
+        <div id="contact-img-container">
+            <div id="contact-img-box">
+                <div class="contact-img-govert-jan">
+                    <img id="img-govert-jan" src="img/govert-jan.jpg">
+                    <p>Govert-Jan Slob</p>
+                </div>
+                <div class="contact-img-garm">
+                    <img id="img-garm" src="img/garm.jpg">
+                    <p> Garm Lucassen</p>
+                </div>
+            </div>
+        </div>
+
+
+        {% if success %}
+            <p class="email-confirm-success">Thank you for your message. We'll get back to you shortly.</p>
+        {% endif %}
+
+
+        <form class="registration-form" action="{{ url_for('contact') }}" method="post" enctype=multipart/form-data name="submit">
+
+            {{ render_field(form.name, maxlength=255, placeholder="your name") }}
+            {{ render_field(form.company_name, maxlength=255, placeholder="your company") }}
+            {{ render_field(form.email, maxlength=255, placeholder="your e-mail adress") }}
+            {{ render_field(form.subject, placeholder="your subject") }}
+            {{ render_field(form.message, placeholder="your message (drag box to enlarge it)") }}
+
+
+            <div class="form-group">
+                {{ form.submit }}
+
+            </div>
+            {% if error %}
+            <p class="error"><strong>Error: </strong>{{error}}</p>
+            {% endif %}
+        </form>
+
+
+        {# MESSAGE FLASHING#}
+        {# {% with messages = get_flashed_messages() %}#}
+        {# {% if messages %}#}
+        {#
+        <ul class=flashes>#}
+            {# {% for message in messages %}#}
+            {#
+            <li>{{ message }}</li>
+            #}
+            {# {% endfor %}#}
+            {#
+        </ul>
+        #}
+        {# {% endif %}#}
+        {# {% endwith %}#}
+
+    </div>
+</div>
+{% endblock main %}

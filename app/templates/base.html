@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109624428-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109624428-1');
+    </script>
+
+    <title>{% block title %}Interactive Narrator{% endblock title %}</title>
+{#    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon"/>#}
+
+    <!-- Jquery Javascript file-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="static/css/custom.css" rel="stylesheet">
+
+
+    <script>
+
+    </script>
+    {% block extra_head %}
+    {% endblock extra_head %}
+</head>
+<body>
+<div id="main">
+      <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header" id="main-navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a href="/">
+                <img src="img/UU-logo" id="UU-logo" alt="Utrecht University logo" href="/">
+            </a>
+
+            <a class="navbar-brand" href="/">Interactive Narrator</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://garmlucassen.nl/post/158159491266/evaluating-grimm-user-stories">QUS</a></li>
+                        <li><a href="https://aqusa.nl">AQUSA</a></li>
+                        <li><a href="https://github.com/marcelrobeer/visualnarrator">Visual Narrator</a></li>
+                        <li><a href="/register">Interactive Narrator</a></li>
+                    </ul>
+
+                 {% if not session['username'] or session['username'] == '' or session['username'] == 'demoman' %}
+                     <li class="nav navbar-left"><a id="demo-link" href="/demo" >Demo</a></li>
+                    {% else %}
+
+                {% endif %}
+                <li class="nav navbar-left"><a href="/about">About</a></li>
+                <li class="nav navbar-left"><a href="/contact">Contact</a></li>
+
+            </ul>
+            <ul id="useraccountitems"class="nav navbar-nav navbar-right">
+                {% if session.get('logged_in') %}
+                    <li><a id="vis_url" href="/vis">Visualization</a></li>
+                {% endif %}
+                {% if session.get('logged_in') %}
+{#                    {% if (session.get('username') != 'demoman') %}#}
+                    <li><a href="/dashboard"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+                    <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+{#                    {% endif %}#}
+                {% else %}
+                <li><a id="signupbtn" href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                {% endif %}
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container -->
+    </nav>
+
+
+    <div class="container-fluid">
+{#        <div class="row">#}
+{#            <div class="col-lg-12">#}
+            {% block main %}{% endblock main %}
+{#            </div>#}
+        </div>
+    </div>
+</div> <!-- /.main-->
+</body>
+</html>
