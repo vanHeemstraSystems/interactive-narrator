@@ -1,8 +1,10 @@
-存储库名称
+互动叙述者
 
-# 存储库名称
+# 互动旁白
 
-Based on "ABC" at <https://www.abc.com/>
+> 可视化您的用户故事
+
+Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
 
 ## 100 - 简介
 
