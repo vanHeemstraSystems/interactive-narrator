@@ -9,9 +9,15 @@ import datetime, time
 # sys.path.append('/var/www/interactivenarrator')
 
 from flask import Flask, jsonify, render_template, url_for, request
+# MORE
 from markupsafe import escape
+# import config, socket
 
+# configuration settings from config.py
 app = Flask(__name__)
+# app.config.from_object(config)
+
+# MORE
 
 @app.route("/<name>")
 def hello(name):
