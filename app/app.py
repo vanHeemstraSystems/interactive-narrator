@@ -13,6 +13,9 @@ from flask import Flask, jsonify, render_template, url_for, request
 from markupsafe import escape
 import config, socket
 
+# tell python where to look for VisualNarrator packages
+# sys.path.append('/var/www/VisualNarrator')
+
 # configuration settings from config.py
 app = Flask(__name__)
 app.config.from_object(config)
