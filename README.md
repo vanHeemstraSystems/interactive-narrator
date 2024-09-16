@@ -5,6 +5,8 @@ interactive-narrator
 
 Based on "Interative Narrator" at https://github.com/Gionimo/InteractiveNarrator
 
+Based on "Visual Narrator' at https://github.com/marcelrobeer/visualnarrator
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
