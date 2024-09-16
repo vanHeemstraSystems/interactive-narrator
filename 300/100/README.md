@@ -49,6 +49,3 @@ Optional, run below command to comply with SpaCy VS Code extension:
 ```
 $ pip install -U pygls
 ```
-
-
-MORE
