@@ -1,7 +1,9 @@
-repository-name
-# Repository Name
+interactive-narrator
+# Interactive Narrator
 
-Based on "ABC" at https://www.abc.com/
+> Visualize your user stories
+
+Based on "Interative Narrator" at https://github.com/Gionimo/InteractiveNarrator
 
 ## 100 - Introduction
 
