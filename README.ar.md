@@ -1,14 +1,14 @@
-interactive-narrator
+الراوي التفاعلي
 
 # الراوي التفاعلي
 
-> Visualize your user stories
+> تصور قصص المستخدم الخاصة بك
 
 استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
-بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 ## 100- مقدمة
 
@@ -22,6 +22,6 @@ interactive-narrator
 
 يرى[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - الخاتمة
 
 يرى[README.md](./400/README.md)
