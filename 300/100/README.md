@@ -41,4 +41,11 @@ If so, make sure you have ran ```$ pip install -U spacy```. Then try again.
 
 OPTIONAL: The [spaCy VSCode Extension](https://github.com/explosion/spacy-vscode) provides additional tooling and features for working with spaCy’s config files. 
 
+Optional, run below command to comply with SpaCy VS Code extension:
+
+```
+$ pip install -U pygls
+```
+
+
 MORE
