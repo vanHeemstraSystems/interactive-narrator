@@ -10,7 +10,7 @@ Basé sur "Visual Narrator" de<https://github.com/marcelrobeer/visualnarrator>
 
 Basé sur "Flask" à<https://github.com/vanHeemstraSystems/flask>
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
@@ -18,7 +18,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
