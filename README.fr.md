@@ -6,7 +6,7 @@ narrateur-interactif
 
 Basé sur "Narrateur interactif" sur<https://github.com/Gionimo/InteractiveNarrator>
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
@@ -14,7 +14,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Building Our Application
 
 Voir[README.md](./300/README.md)
 
