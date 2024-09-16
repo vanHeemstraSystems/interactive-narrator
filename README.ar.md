@@ -1,10 +1,12 @@
-اسم المستودع
+الراوي التفاعلي
 
-# اسم المستودع
+# الراوي التفاعلي
 
-استنادا إلى "ABC" في<https://www.abc.com/>
+> تصور قصص المستخدم الخاصة بك
 
-## 100 - Introduction
+استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
+
+## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
@@ -12,7 +14,7 @@
 
 يرى[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 – بناء تطبيقنا
 
 يرى[README.md](./300/README.md)
 
