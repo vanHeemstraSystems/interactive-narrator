@@ -16,6 +16,11 @@ import config, socket
 # tell python where to look for VisualNarrator packages
 # sys.path.append('/var/www/VisualNarrator')
 
+# from VisualNarrator import run
+
+# preload Spacey NLP
+# spacy_nlp = run.initialize_nlp()
+
 # configuration settings from config.py
 app = Flask(__name__)
 app.config.from_object(config)
