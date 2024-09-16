@@ -1,6 +1,6 @@
 互動敘述者
 
-# 互動旁白
+# Interactive Narrator
 
 > 視覺化您的使用者故事
 
@@ -10,9 +10,9 @@
 
 基於“Flask”<https://github.com/vanHeemstraSystems/flask>
 
-## 100 - 簡介
+## 100 - Introduction
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
