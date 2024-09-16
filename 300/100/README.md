@@ -16,10 +16,11 @@ We do **not** have a solution for above error as of yet. :(
 
 If no error, continue:
 
-
 ```
 $ pip install -U pip setuptools wheel
 ```
+
+Install spacy:
 
 ```
 $ pip install -U spacy
