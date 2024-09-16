@@ -1,6 +1,6 @@
 互動敘述者
 
-# Interactive Narrator
+# 互動旁白
 
 > 視覺化您的使用者故事
 
