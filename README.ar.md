@@ -8,6 +8,8 @@
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
+بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
+
 ## 100- مقدمة
 
 يرى[README.md](./100/README.md)
