@@ -8,7 +8,7 @@
 
 基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
 
-基於“Flask”<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 ## 100 - 簡介
 
