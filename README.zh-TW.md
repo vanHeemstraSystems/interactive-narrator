@@ -1,8 +1,10 @@
-儲存庫名稱
+互動敘述者
 
-# 儲存庫名稱
+# 互動旁白
 
-基於“ABC”<https://www.abc.com/>
+> 視覺化您的使用者故事
+
+基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
 ## 100 - 簡介
 
