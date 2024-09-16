@@ -1,4 +1,4 @@
-互动叙述者
+interactive-narrator
 
 # 互动旁白
 
@@ -20,7 +20,7 @@
 
 ## 300 - 构建我们的应用程序
 
-看[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - 结论
 
