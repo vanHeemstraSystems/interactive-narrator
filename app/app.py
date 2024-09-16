@@ -21,6 +21,9 @@ import config, socket
 # preload Spacey NLP
 # spacy_nlp = run.initialize_nlp()
 
+# import the database models
+# MORE
+
 # configuration settings from config.py
 app = Flask(__name__)
 app.config.from_object(config)
