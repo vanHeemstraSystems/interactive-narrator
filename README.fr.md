@@ -6,6 +6,8 @@ narrateur-interactif
 
 Basé sur "Narrateur interactif" sur<https://github.com/Gionimo/InteractiveNarrator>
 
+Basé sur "Visual Narrator" de<https://github.com/marcelrobeer/visualnarrator>
+
 ## 100 - Présentation
 
 Voir[README.md](./100/README.md)
@@ -20,4 +22,4 @@ Voir[README.md](./300/README.md)
 
 ## 400 - Conclusion
 
-Voir[README.md](./400/README.md)
+See [README.md](./400/README.md)
