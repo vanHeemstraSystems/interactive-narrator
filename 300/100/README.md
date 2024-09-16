@@ -14,7 +14,7 @@ AttributeError: module 'configparser' has no attribute 'SafeConfigParser'. Did y
 
 We do **not** have a solution for above error as of yet. :(
 
-If not error, continue:
+If no error, continue:
 
 
 ```
