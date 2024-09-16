@@ -1,8 +1,8 @@
-الراوي التفاعلي
+interactive-narrator
 
 # الراوي التفاعلي
 
-> تصور قصص المستخدم الخاصة بك
+> Visualize your user stories
 
 استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
 
@@ -22,6 +22,6 @@
 
 يرى[README.md](./300/README.md)
 
-## 400 - الخاتمة
+## 400 - Conclusion
 
 يرى[README.md](./400/README.md)
