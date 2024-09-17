@@ -18,7 +18,7 @@ from flask_sqlalchemy import SQLAlchemy
 from markupsafe import escape
 import config, socket
 
-# optional
+# optional, when requiring SQL statements
 from sqlalchemy.sql import func
 
 # tell python where to look for VisualNarrator packages
