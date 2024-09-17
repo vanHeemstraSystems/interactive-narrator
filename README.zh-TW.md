@@ -4,7 +4,7 @@
 
 > 視覺化您的使用者故事
 
-Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
+基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
 基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
 
@@ -30,4 +30,4 @@ Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrato
 
 ## 400 - 結論
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
