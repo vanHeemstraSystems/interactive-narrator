@@ -13,6 +13,8 @@ Based on "How Do You Serve Static Files in Flask?" at https://sentry.io/answers/
 
 Based on "SpaCy" at https://github.com/vanHeemstraSystems/spacy
 
+Based on "Flask SQLAlchemy" at https://github.com/vanHeemstraSystems/flask-sqlalchemy
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
