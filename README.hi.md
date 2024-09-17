@@ -2,13 +2,13 @@
 
 # इंटरैक्टिव कथावाचक
 
-> अपनी उपयोगकर्ता कहानियों की कल्पना करें
+> Visualize your user stories
 
-"इंटरएक्टिव नैरेटर" पर आधारित<https://github.com/Gionimo/InteractiveNarrator>
+Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
 
-"विजुअल नैरेटर' पर आधारित<https://github.com/marcelrobeer/visualnarrator>
+Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
-Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
+"फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
 
 "आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
