@@ -10,11 +10,11 @@
 
 基於“Flask”<https://github.com/vanHeemstraSystems/flask>
 
-Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
+基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
 ## 100 - 簡介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
@@ -26,4 +26,4 @@ See [README.md](./100/README.md)
 
 ## 400 - 結論
 
-See [README.md](./400/README.md)
+看[README.md](./400/README.md)
