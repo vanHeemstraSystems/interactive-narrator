@@ -14,7 +14,7 @@ Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<ht
 
 Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
-## 100 - Présentation
+## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
@@ -22,7 +22,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 
