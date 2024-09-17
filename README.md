@@ -11,6 +11,8 @@ Based on "Flask" at https://github.com/vanHeemstraSystems/flask
 
 Based on "How Do You Serve Static Files in Flask?" at https://sentry.io/answers/serve-static-files-flask/
 
+Based on "SpaCy" at https://github.com/vanHeemstraSystems/spacy
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
