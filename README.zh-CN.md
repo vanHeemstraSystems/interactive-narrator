@@ -6,9 +6,9 @@
 
 基于“交互式叙述者”<https://github.com/Gionimo/InteractiveNarrator>
 
-基于“视觉叙述者”<https://github.com/marcelrobeer/visualnarrator>
+Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
-基于“Flask”<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 基于“如何在 Flask 中提供静态文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
