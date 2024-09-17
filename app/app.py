@@ -30,11 +30,14 @@ sys.path.append('/var/www/VisualNarrator')
 # spacy_nlp = run.initialize_nlp()
 
 # import the database models
-# MORE
+# from models import Base
 
 # configuration settings from config.py
 app = Flask(__name__)
 app.config.from_object(config)
+
+# db = SQLAlchemy(app)
+# db.Model = Base
 
 # MORE
 

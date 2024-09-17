@@ -9,7 +9,7 @@ Flask-SQLAlchemy
 # WTForms
 # passlib==1.7.1
 # flask_mail
-# flask_security
+flask_security
 
 # Visual Narrator Requirements (Updated on 16 September 2024)
 # # python>=3.6
