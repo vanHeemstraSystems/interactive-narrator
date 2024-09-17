@@ -14,7 +14,7 @@ from markupsafe import escape
 import config, socket
 
 # tell python where to look for VisualNarrator packages
-# sys.path.append('/var/www/VisualNarrator')
+sys.path.append('/var/www/VisualNarrator')
 
 # from VisualNarrator import run
 
