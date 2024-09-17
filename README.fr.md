@@ -14,11 +14,11 @@ Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<ht
 
 Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
-Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 ## 100 - Introduction
 
-See [README.md](./100/README.md)
+Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
