@@ -2,13 +2,13 @@ narrateur-interactif
 
 # Narrateur interactif
 
-> Visualisez vos user stories
+> Visualize your user stories
 
 Basé sur "Narrateur interactif" sur<https://github.com/Gionimo/InteractiveNarrator>
 
 Basé sur "Visual Narrator" de<https://github.com/marcelrobeer/visualnarrator>
 
-Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
+Basé sur "Flask" à<https://github.com/vanHeemstraSystems/flask>
 
 Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<https://sentry.io/answers/serve-static-files-flask/>
 
