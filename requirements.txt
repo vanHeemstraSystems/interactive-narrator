@@ -2,19 +2,19 @@
 #
 #
 Flask
-Flask-Login
-Flask-Script
-Flask-SQLAlchemy
-SQLAlchemy
-WTForms
-passlib==1.7.1
-flask_mail
-flask_security
+# Flask-Login
+# Flask-Script
+# Flask-SQLAlchemy
+# SQLAlchemy
+# WTForms
+# passlib==1.7.1
+# flask_mail
+# flask_security
 
 # Visual Narrator Requirements (Updated on 16 September 2024)
-# python>=3.6
-numpy>=1.16.2 # was 1.12.1
-pandas>=0.24.2 # was 0.19.2
-spacy>=2.1.2 # was 1.8.2
-# was Django==1.9
-Jinja2>=2.10 # was 2.9.5
+# # python>=3.6
+# numpy>=1.16.2 # was 1.12.1
+# pandas>=0.24.2 # was 0.19.2
+# spacy>=2.1.2 # was 1.8.2
+# # was Django==1.9
+# Jinja2>=2.10 # was 2.9.5
