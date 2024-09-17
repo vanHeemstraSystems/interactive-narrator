@@ -2,7 +2,7 @@ narrateur-interactif
 
 # Narrateur interactif
 
-> Visualize your user stories
+> Visualisez vos user stories
 
 Basé sur "Narrateur interactif" sur<https://github.com/Gionimo/InteractiveNarrator>
 
@@ -16,7 +16,7 @@ Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
@@ -24,7 +24,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
