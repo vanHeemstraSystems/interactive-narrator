@@ -1,14 +1,14 @@
 इंटरैक्टिव कथावाचक
 
-# Interactive Narrator
+# इंटरैक्टिव कथावाचक
 
 > अपनी उपयोगकर्ता कहानियों की कल्पना करें
 
 "इंटरएक्टिव नैरेटर" पर आधारित<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+"विजुअल नैरेटर' पर आधारित<https://github.com/marcelrobeer/visualnarrator>
 
-"फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 "आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
@@ -24,7 +24,7 @@ Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
 देखना[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - हमारे एप्लिकेशन का निर्माण
 
 देखना[README.md](./300/README.md)
 
