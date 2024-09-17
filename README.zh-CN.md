@@ -8,9 +8,11 @@
 
 基于“视觉叙述者”<https://github.com/marcelrobeer/visualnarrator>
 
-基于“Flask”<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
-## 100 - Introduction
+基于“如何在 Flask 中提供静态文件？”在<https://sentry.io/answers/serve-static-files-flask/>
+
+## 100 - 简介
 
 看[README.md](./100/README.md)
 

@@ -10,6 +10,8 @@
 
 "फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
 
+"आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
+
 ## 100 - परिचय
 
 देखना[README.md](./100/README.md)
