@@ -2,7 +2,7 @@
 
 # इंटरैक्टिव कथावाचक
 
-> Visualize your user stories
+> अपनी उपयोगकर्ता कहानियों की कल्पना करें
 
 "इंटरएक्टिव नैरेटर" पर आधारित<https://github.com/Gionimo/InteractiveNarrator>
 
@@ -12,7 +12,7 @@
 
 "आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
-Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
+"स्पासी" पर आधारित<https://github.com/vanHeemstraSystems/spacy>
 
 "फ्लास्क SQLAlchemy" पर आधारित<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
@@ -22,7 +22,7 @@ Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
 ## 200 - आवश्यकताएँ
 
-देखना[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 - हमारे एप्लिकेशन का निर्माण
 
