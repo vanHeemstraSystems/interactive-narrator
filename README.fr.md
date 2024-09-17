@@ -12,7 +12,7 @@ Basé sur "Flask" à<https://github.com/vanHeemstraSystems/flask>
 
 Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<https://sentry.io/answers/serve-static-files-flask/>
 
-Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
+Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
 ## 100 - Introduction
 
@@ -22,7 +22,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Building Our Application
 
 Voir[README.md](./300/README.md)
 

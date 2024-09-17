@@ -1,6 +1,6 @@
-interactive-narrator
+इंटरैक्टिव कथावाचक
 
-# Interactive Narrator
+# इंटरैक्टिव कथावाचक
 
 > अपनी उपयोगकर्ता कहानियों की कल्पना करें
 
@@ -8,7 +8,7 @@ interactive-narrator
 
 "विजुअल नैरेटर' पर आधारित<https://github.com/marcelrobeer/visualnarrator>
 
-Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
+"फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
 
 "आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
@@ -24,7 +24,7 @@ Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 ## 300 - हमारे एप्लिकेशन का निर्माण
 
-देखना[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - निष्कर्ष
 
