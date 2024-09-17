@@ -10,11 +10,13 @@
 
 بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
 
+Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
+
 ## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - المتطلبات
 
 يرى[README.md](./200/README.md)
 
