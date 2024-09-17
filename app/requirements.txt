@@ -4,7 +4,7 @@
 Flask
 # Flask-Login
 # Flask-Script
-# Flask-SQLAlchemy
+Flask-SQLAlchemy
 # SQLAlchemy
 # WTForms
 # passlib==1.7.1
