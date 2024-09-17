@@ -14,6 +14,8 @@ Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<ht
 
 Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
+Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+
 ## 100 - Introduction
 
 Voir[README.md](./100/README.md)

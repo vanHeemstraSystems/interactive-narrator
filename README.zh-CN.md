@@ -14,6 +14,8 @@
 
 基于“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
 
+基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+
 ## 100 - 简介
 
 看[README.md](./100/README.md)

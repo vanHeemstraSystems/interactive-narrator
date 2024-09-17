@@ -4,7 +4,7 @@
 
 > 視覺化您的使用者故事
 
-基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
+Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
 
 基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
 
@@ -13,6 +13,8 @@
 基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
 基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
+
+基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 ## 100 - 簡介
 
