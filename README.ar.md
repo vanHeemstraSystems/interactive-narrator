@@ -10,7 +10,7 @@
 
 بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
 
-استنادًا إلى "كيف يمكنك خدمة الملفات الثابتة في Flask؟" في<https://sentry.io/answers/serve-static-files-flask/>
+Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
 
 بناء على "SpaCy" في<https://github.com/vanHeemstraSystems/spacy>
 
