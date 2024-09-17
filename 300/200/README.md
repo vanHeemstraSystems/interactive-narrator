@@ -1,18 +1,20 @@
-# 200 - Running the Project
+# 200 - Setting up The Database Connection
 
-Running the program can be done in three ways: 
-(1) from the command line, 
-(2) using method VisualNarrator().run(), 
-(3) serving VisualNarrator as a REST API.
+Open a file called ```app.py``` in your ```app``` directory. This file will have code for setting up the database and your Flask routes:
 
-## 100 - Running the Project from the Command Line
+```
+$ mkdir app
+$ cd app
+$ touch app.py
+```
 
-See [README.md](./100/README.md)
+This file will connect to an SQLite database called ```database.db```, and have a class called ```Student``` that represents your database students table for storing student information, in addition to your Flask routes. Add the following ```import``` statements at the top of ```app.py```:
 
-## 200 - Running the Project Using Method VisualNarrator().run()
+```
+import os
+from flask import Flask, render_template, request, url_for, redirect
+from flask_sqlalchemy import SQLAlchemy
 
-See [README.md](./200/README.md)
-
-## 300 - Running the Project by Serving VisualNarrator as a REST API
-
-See [README.md](./300/README.md)
+from sqlalchemy.sql import func
+```
+app/app.py
