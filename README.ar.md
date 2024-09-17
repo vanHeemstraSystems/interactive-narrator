@@ -12,9 +12,11 @@
 
 استنادًا إلى "كيف يمكنك خدمة الملفات الثابتة في Flask؟" في<https://sentry.io/answers/serve-static-files-flask/>
 
+بناء على "SpaCy" في<https://github.com/vanHeemstraSystems/spacy>
+
 ## 100- مقدمة
 
-See [README.md](./100/README.md)
+يرى[README.md](./100/README.md)
 
 ## 200 - المتطلبات
 

@@ -12,6 +12,8 @@
 
 基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
+基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
+
 ## 100 - 簡介
 
 看[README.md](./100/README.md)

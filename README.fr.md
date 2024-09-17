@@ -10,7 +10,9 @@ Basé sur "Visual Narrator" de<https://github.com/marcelrobeer/visualnarrator>
 
 Basé sur "Flask" à<https://github.com/vanHeemstraSystems/flask>
 
-Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
+Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<https://sentry.io/answers/serve-static-files-flask/>
+
+Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
 ## 100 - Présentation
 

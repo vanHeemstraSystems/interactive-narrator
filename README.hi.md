@@ -12,6 +12,8 @@
 
 "आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
+"स्पासी" पर आधारित<https://github.com/vanHeemstraSystems/spacy>
+
 ## 100 - परिचय
 
 देखना[README.md](./100/README.md)
