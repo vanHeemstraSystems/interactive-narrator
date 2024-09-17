@@ -9,6 +9,8 @@ Based on "Visual Narrator' at https://github.com/marcelrobeer/visualnarrator
 
 Based on "Flask" at https://github.com/vanHeemstraSystems/flask
 
+Based on "How Do You Serve Static Files in Flask?" at https://sentry.io/answers/serve-static-files-flask/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
