@@ -43,7 +43,7 @@ db = SQLAlchemy(app)
 
 # MORE
 
-# Models: TO DO - In future move these to models.py
+# models: TO DO - In the future move these to app/models.py
 
 class Student(db.Model):
     __tablename__ = 'student'
@@ -61,6 +61,13 @@ class Student(db.Model):
 
 # MORE
 
+# routes: TO DO - In the future move these to app/routes.py
+
 @app.route("/<name>")
 def hello(name):
     return f"Hello, {escape(name)}!"
+
+@app.route("/")
+def index():
+    students = Student.query.all()
+    return render_template('index.html', students=students)    
