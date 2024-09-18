@@ -1,8 +1,8 @@
 इंटरैक्टिव कथावाचक
 
-# इंटरैक्टिव कथावाचक
+# Interactive Narrator
 
-> Visualize your user stories
+> अपनी उपयोगकर्ता कहानियों की कल्पना करें
 
 "इंटरएक्टिव नैरेटर" पर आधारित<https://github.com/Gionimo/InteractiveNarrator>
 
@@ -32,4 +32,4 @@
 
 ## 400 - निष्कर्ष
 
-See [README.md](./400/README.md)
+देखना[README.md](./400/README.md)
