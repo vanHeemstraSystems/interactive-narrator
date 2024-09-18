@@ -6,19 +6,19 @@ narrateur-interactif
 
 Basé sur "Narrateur interactif" sur<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+Basé sur "Visual Narrator" de<https://github.com/marcelrobeer/visualnarrator>
 
 Basé sur "Flask" à<https://github.com/vanHeemstraSystems/flask>
 
 Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<https://sentry.io/answers/serve-static-files-flask/>
 
-Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
+Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
 Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 Basé sur "Flask Web Development" sur<https://github.com/miguelgrinberg/flasky>
 
-## 100 - Introduction
+## 100 - Présentation
 
 Voir[README.md](./100/README.md)
 
@@ -26,7 +26,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
 Voir[README.md](./300/README.md)
 
