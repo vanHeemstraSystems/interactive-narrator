@@ -6,9 +6,9 @@
 
 基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
 
-基於“Flask”<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
@@ -20,7 +20,7 @@ Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
 ## 100 - 簡介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
