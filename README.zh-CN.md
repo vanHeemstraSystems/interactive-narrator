@@ -4,7 +4,7 @@
 
 > 可视化您的用户故事
 
-基于“交互式叙述者”<https://github.com/Gionimo/InteractiveNarrator>
+Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
 
 基于“视觉叙述者”<https://github.com/marcelrobeer/visualnarrator>
 
