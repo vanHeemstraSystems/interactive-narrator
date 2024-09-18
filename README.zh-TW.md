@@ -6,7 +6,7 @@
 
 基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
-基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
+Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
 基於“Flask”<https://github.com/vanHeemstraSystems/flask>
 
@@ -16,9 +16,11 @@
 
 基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
+基於“Flask Web 開發”，位於<https://github.com/miguelgrinberg/flasky>
+
 ## 100 - 簡介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 

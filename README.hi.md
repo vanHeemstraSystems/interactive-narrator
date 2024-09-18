@@ -2,11 +2,11 @@
 
 # इंटरैक्टिव कथावाचक
 
-> अपनी उपयोगकर्ता कहानियों की कल्पना करें
+> Visualize your user stories
 
 "इंटरएक्टिव नैरेटर" पर आधारित<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+"विजुअल नैरेटर' पर आधारित<https://github.com/marcelrobeer/visualnarrator>
 
 "फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
 
@@ -16,9 +16,11 @@ Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
 "फ्लास्क SQLAlchemy" पर आधारित<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
+"फ्लास्क वेब डेवलपमेंट" पर आधारित<https://github.com/miguelgrinberg/flasky>
+
 ## 100 - परिचय
 
-See [README.md](./100/README.md)
+देखना[README.md](./100/README.md)
 
 ## 200 - आवश्यकताएँ
 
@@ -30,4 +32,4 @@ See [README.md](./100/README.md)
 
 ## 400 - निष्कर्ष
 
-देखना[README.md](./400/README.md)
+See [README.md](./400/README.md)
