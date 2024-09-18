@@ -18,7 +18,7 @@ Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sql
 
 Basé sur "Flask Web Development" sur<https://github.com/miguelgrinberg/flasky>
 
-## 100 - Présentation
+## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
@@ -26,7 +26,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 

@@ -1,4 +1,4 @@
-الراوي التفاعلي
+interactive-narrator
 
 # الراوي التفاعلي
 
@@ -16,7 +16,7 @@
 
 استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
-استنادًا إلى "Flask Web Development" في<https://github.com/miguelgrinberg/flasky>
+Based on "Flask Web Development" at <https://github.com/miguelgrinberg/flasky>
 
 ## 100- مقدمة
 
