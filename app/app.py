@@ -19,7 +19,7 @@ from markupsafe import escape
 import config, socket
 
 # optional, when requiring SQL statements
-from sqlalchemy.sql import func
+# from sqlalchemy.sql import func
 
 # tell python where to look for VisualNarrator packages
 sys.path.append('/var/www/VisualNarrator')
