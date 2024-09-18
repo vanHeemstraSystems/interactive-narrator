@@ -11,7 +11,7 @@ sys.path.append('/var/www/interactivenarrator')
 from sqlalchemy import create_engine, select, update, func
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import and_, not_, or_
-from slqalchemy.sql import func
+from sqlalchemy.sql import func
 from flask import Flask, jsonify, render_template, url_for, request
 from flask import flash, send_from_directory, Response, session
 from flask_sqlalchemy import SQLAlchemy
