@@ -15,6 +15,8 @@ Based on "SpaCy" at https://github.com/vanHeemstraSystems/spacy
 
 Based on "Flask SQLAlchemy" at https://github.com/vanHeemstraSystems/flask-sqlalchemy
 
+Based on "Flask Web Development" at https://github.com/miguelgrinberg/flasky
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
