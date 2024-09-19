@@ -18,6 +18,12 @@
 
 "फ्लास्क वेब डेवलपमेंट" पर आधारित<https://github.com/miguelgrinberg/flasky>
 
+इस एप्लिकेशन को इस प्रकार चलाएँ:
+
+1) दर्ज करें`flask_app`निर्देशिका:`cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`python3 -m venv .venv
+3) Start the virtual environment and enter: `. .venv/bin/सक्रिय करें`4) Set the Flask App to app directory:`निर्यात FLASK_APP = ऐप`5) Set the Flask Environment to development:`निर्यात FLASK_ENV=विकास`6) Run the flask app:`फ्लास्क रन\`\`\`
+7) संकेतानुसार वेब इंटरफ़ेस खोलें
+
 ## 100 - परिचय
 
 देखना[README.md](./100/README.md)
