@@ -4,7 +4,7 @@
 
 > 可视化您的用户故事
 
-Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
+基于“交互式叙述者”<https://github.com/Gionimo/InteractiveNarrator>
 
 基于“视觉叙述者”<https://github.com/marcelrobeer/visualnarrator>
 
@@ -17,6 +17,12 @@ Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrato
 基于“Flask SQLAlchemy”，位于<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 基于“Flask Web 开发”，位于<https://github.com/miguelgrinberg/flasky>
+
+按如下方式运行该应用程序：
+
+1) 输入`flask_app`目录：`cd flask_app`2）如果不存在，则在内部创建一个虚拟环境`flask_app`目录：`python3 -m venv .venv
+3) Start the virtual environment and enter: `。 .venv/bin/激活`4) Set the Flask App to app directory:`导出 FLASK_APP=应用程序`5) Set the Flask Environment to development:`导出 FLASK_ENV=开发`6) Run the flask app:`烧瓶运行\`\`\`
+7）根据提示打开Web界面
 
 ## 100 - 简介
 

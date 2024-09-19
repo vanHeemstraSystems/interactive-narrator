@@ -14,15 +14,21 @@
 
 基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
 
-基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 基於“Flask Web 開發”，位於<https://github.com/miguelgrinberg/flasky>
+
+按如下方式運行該應用程式：
+
+1) 輸入`flask_app`目錄：`cd flask_app`2）如果不存在，則在內部建立一個虛擬環境`flask_app`目錄：`python3 -m venv .venv
+3) Start the virtual environment and enter: `。 .venv/bin/激活`4) Set the Flask App to app directory:`匯出 FLASK_APP=應用程式`5) Set the Flask Environment to development:`導出 FLASK_ENV=開發`6) Run the flask app:`燒瓶運轉\`\`\`
+7）根據提示開啟Web介面
 
 ## 100 - 簡介
 
 看[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - 要求
 
 看[README.md](./200/README.md)
 
