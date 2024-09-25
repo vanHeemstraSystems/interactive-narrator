@@ -201,3 +201,126 @@ img#UU-logo{
     padding-left: 5px;
     padding-top: 10px;
 }
+
+
+@media only screen and (max-width: 768px){
+    .navbar-nav{
+        margin: 0;
+
+    }
+    .navbar-header{
+        padding-left: 70px;
+    }
+    .navbar-header:after{
+        clear: none;
+    }
+
+}
+
+
+
+
+
+/*Styling for all things in the vertical navigation on the left*/
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.glyphicon-menu-hamburger{
+    font-size: 14pt;
+}
+
+
+#main_icon {
+    float: right;
+    padding-right: 25px;
+    padding-top: 20px;
+    color: rgb(236, 195, 72);
+}
+
+
+@media (max-width: 767px) {
+    #wrapper {
+        padding-left: 70px;
+        transition: all .4s ease 0s;
+    }
+
+    #sidebar-wrapper {
+        left: 70px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 150px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        left: 250px;
+        width: 250px;
+        transition: all .4s ease 0s;
+    }
+}
+
+
+.dropdown-menu {
+    background-color: rgb(51, 47, 48);
+    border: 0;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    border-radius: 0px;
+}
+
+.btn-default.active, .open > .dropdown-toggle.btn-default {
+    width: 250px;
+    text-indent: 0px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    color: #333;
+    /*line-height: 40px;*/
+
+}
+
+.btn-group {
+    display: block;
+    border: none;
+}
+
+.btn {
+    white-space: inherit;
+}
+
+.open > .dropdown-toggle.btn-default:focus {
+    background-color: rgb(236, 195, 72);
+}
+
+.btn-group > .btn-default {
+    background-color: rgb(51, 47, 48);
+    border-bottom: 1px solid rgb(66, 66, 66);
+    border-radius: 0;
+    text-indent: 0px;
+    width: 250px;
+    height: 40px;
+
+}
+
+.btn-default {
+    border: none;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    background-color: rgb(236, 195, 72);
+    /*border-color: #adadad;*/
+    /*color: #333;*/
+}
+
+ul.multiselect-container > li > a {
+    text-indent: 10px;
+    height: 30px;
+    padding-top: 1px;
+}
+
+h5#threshold {
+    margin: 0px 5px 5px 0px;
+    color: rgb(177, 178, 177);
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    /*padding-top: 5px;*/
+}
