@@ -14,6 +14,8 @@ def do_register():
         username = form.username.data
         email = form.email.data
         password = sha256_crypt.encrypt((str(form.password.data)))
+        # check by username if a user is new or existent...
+        user_exists = sqlsession.query(User).filter(User.username == username).first()
 
         print('success, user does not exist yet')
 
