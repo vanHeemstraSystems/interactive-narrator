@@ -6,7 +6,7 @@
 
 基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
 
 基於“Flask”<https://github.com/vanHeemstraSystems/flask>
 
