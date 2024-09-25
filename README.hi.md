@@ -2,7 +2,7 @@
 
 # इंटरैक्टिव कथावाचक
 
-> अपनी उपयोगकर्ता कहानियों की कल्पना करें
+> Visualize your user stories
 
 "इंटरएक्टिव नैरेटर" पर आधारित<https://github.com/Gionimo/InteractiveNarrator>
 
