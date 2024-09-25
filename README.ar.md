@@ -4,7 +4,7 @@
 
 > تصور قصص المستخدم الخاصة بك
 
-استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
+Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
