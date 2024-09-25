@@ -31,21 +31,35 @@ main %}
     <div id="welcome-content">
       <div id="homepage-slider" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#homepage-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#homepage-slider" data-slide-to="1" class=""></li>
-            <li data-target="#homepage-slider" data-slide-to="2" class=""></li>
+          <li
+            data-target="#homepage-slider"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#homepage-slider" data-slide-to="1" class=""></li>
+          <li data-target="#homepage-slider" data-slide-to="2" class=""></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active">
-                <img src="static/img/slider_few_nodes.png" alt="a zoomed in selection of the network diagram">
-            </div>
-            <div class="item">
-                <img src="static/img/slider_many_nodes.png" alt="a broad view of the network diagram">
-            </div>
-            <div class="item">
-                <img src="static/img/slider_zoomed_in.png" alt="a zoomed in view of the network diagram">
-            </div>
-        </div><!-- .carousel-inner -->
+          <div class="item active">
+            <img
+              src="static/img/slider_few_nodes.png"
+              alt="a zoomed in selection of the network diagram"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="static/img/slider_many_nodes.png"
+              alt="a broad view of the network diagram"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="static/img/slider_zoomed_in.png"
+              alt="a zoomed in view of the network diagram"
+            />
+          </div>
+        </div>
+        <!-- .carousel-inner -->
         <a
           class="left carousel-control"
           href="#homepage-slider"
@@ -76,7 +90,61 @@ main %}
 <!-- #slogan-row -->
 
 <div id="introtext-row" class="row row-eq-height">
-  <h1>introtext</h1>
+  <div id="qus-introtext" class="col-lg-3">
+    <h3>Quality User Story Framework</h3>
+    <i><h5>A User Story Framework</h5></i>
+    <p>
+      Quality User Story Framework is a collection of quality criteria for
+      individual user stories as well as sets of user stories. Prevent ambiguity
+      from turning into wrong assumptions by teaching this simple framework to
+      the entire software development team.
+    </p>
+    <a
+      href="https://www.slideshare.net/GarmLucassen/grimm-user-stories-introductory-presentation"
+      class="btn btn-md"
+      >Read More</a
+    >
+  </div>
+  <!-- #qus-introtext -->
+  <div id="aqusa-introtext" class="col-lg-3">
+    <h3>AQUSA</h3>
+    <i><h5>Automated Syntacical User Story Analysis</h5></i>
+    <p>
+      Our first tool, AQUSA, helps you apply the QUS-framework by analyzing your
+      user stories and providing feedback on how to improve them. It highlights
+      your areas of improvement. With AQUSA, you will really make the perfect
+      user stories.
+    </p>
+    <a href="https://github.com/RELabUU/aqusa-core" class="btn btn-md"
+      >Start Using AQUSA</a
+    >
+  </div>
+  <!-- #aqusa-introtext -->
+  <div id="vn-introtext" class="col-lg-3">
+    <h3>Visual Narrator</h3>
+    <i><h5>Conceptual Model Generation</h5></i>
+    <p>
+      At the centre of the GRIMM toolkit is Visual Narrator, which uses Natural
+      Language processing techniques to analyze your user stories. The tool can
+      generate functional models in the form of HTML-reports and Ontologies.
+    </p>
+    <a href="https://github.com/MarcelRobeer/VisualNarrator/" class="btn btn-md"
+      >GitHub</a
+    >
+  </div>
+  <!-- #vn-introtext -->
+  <div id="in-introtext" class="col-lg-3">
+    <h3>Interactive Narrator</h3>
+    <i><h5>Interactive Conceptual Models</h5></i>
+    <p>
+      Interactive Narrator represents the final stage of the GRIMM-process. It
+      visualizes your user stories into a touch screen friendly interactive
+      diagram. Interactive Narrator helps initiate fruitful discussion about
+      software requirements.
+    </p>
+    <a href="/register" class="btn btn-md btn">Start Using IN</a>
+  </div>
+  <!-- #in-introtext -->
 </div>
 <!-- #introtext-row -->
 {% endblock main %}
