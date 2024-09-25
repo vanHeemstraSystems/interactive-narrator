@@ -2,7 +2,7 @@
 
 # 互動旁白
 
-> 視覺化您的使用者故事
+> Visualize your user stories
 
 基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
@@ -14,7 +14,7 @@
 
 基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
 
-基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 基於“Flask Web 開發”，位於<https://github.com/miguelgrinberg/flasky>
 

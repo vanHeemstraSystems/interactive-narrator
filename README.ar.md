@@ -6,15 +6,15 @@
 
 استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
 بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
 
-Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
+استنادًا إلى "كيف يمكنك خدمة الملفات الثابتة في Flask؟" في<https://sentry.io/answers/serve-static-files-flask/>
 
 بناء على "SpaCy" في<https://github.com/vanHeemstraSystems/spacy>
 
-استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 استنادًا إلى "Flask Web Development" في<https://github.com/miguelgrinberg/flasky>
 
