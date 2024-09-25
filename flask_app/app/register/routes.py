@@ -1,9 +1,9 @@
 #!/usr/bin/env python
+from app import sqlsession
+from app.form import RegistrationForm
+from app.register import bp
 from flask import render_template, request
 from passlib.hash import sha256_crypt
-from app.register import bp
-
-from app.form import RegistrationForm
 
 @bp.route('/register', methods=['GET', 'POST'])
 def do_register():
@@ -16,8 +16,13 @@ def do_register():
         password = sha256_crypt.encrypt((str(form.password.data)))
         # check by username if a user is new or existent...
         user_exists = sqlsession.query(User).filter(User.username == username).first()
+        # ... if it exists, notify the user
+        if user_exists:
+          print('failure, that user already exists')
 
-        print('success, user does not exist yet')
+        # ..else, create the new user
+        else:
+          print('success, user does not exist yet')
 
     else:
       return render_template("register.html", form=form)
