@@ -10,8 +10,8 @@ def do_register():
     form = RegistrationForm(request.form)
     if request.method == "POST" and form.validate():
         print('validating was a success')
-
         username = form.username.data
+        email = form.email.data
 
     else:
       return render_template("register.html", form=form)
