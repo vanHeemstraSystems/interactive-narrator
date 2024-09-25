@@ -1,4 +1,4 @@
-interactive-narrator
+الراوي التفاعلي
 
 # الراوي التفاعلي
 
@@ -8,7 +8,7 @@ interactive-narrator
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
-بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 استنادًا إلى "كيف يمكنك خدمة الملفات الثابتة في Flask؟" في<https://sentry.io/answers/serve-static-files-flask/>
 
