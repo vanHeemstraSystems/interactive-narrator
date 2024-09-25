@@ -8,11 +8,11 @@
 
 "विजुअल नैरेटर' पर आधारित<https://github.com/marcelrobeer/visualnarrator>
 
-Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
+"फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
 
 "आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
-Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
+"स्पासी" पर आधारित<https://github.com/vanHeemstraSystems/spacy>
 
 "फ्लास्क SQLAlchemy" पर आधारित<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
@@ -28,7 +28,7 @@ Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
 देखना[README.md](./100/README.md)
 
-## 200 - आवश्यकताएँ
+## 200 - Requirements
 
 देखना[README.md](./200/README.md)
 
@@ -38,4 +38,4 @@ Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
 ## 400 - निष्कर्ष
 
-See [README.md](./400/README.md)
+देखना[README.md](./400/README.md)
