@@ -347,3 +347,161 @@ h5#threshold {
     font-family: 'Open Sans', sans-serif;
     /*padding-top: 5px;*/
 }
+
+.login h1, h2, h3, h4, h5, h6, .registration h1, h2, h3, h4, h5, h6, .contact h1, h2, h3, h4, h5, h6,
+.about h1, h2, h3, h4, h5, h6{
+    color: #332F30;
+}
+
+p.error{
+    color: #b93331;
+    text-align: center;
+}
+
+.registration, .login, .contact, .about {
+    margin: 100px auto;
+    min-width: 350px;
+    width: 40%;
+}
+
+.about{
+    width: 60%;
+}
+
+.registration-title, .login-title, .contact-title{
+    text-align: center;
+}
+
+#forgot-password{
+    position: relative;
+    left: 55%;
+}
+
+#login-submit:hover{
+    background-color:#4f81bd;
+}
+.registration-form input, textarea#message, .login-form input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 400;
+/*padding: 10px 0;*/
+/*width: 250px;*/
+transition: border .5s;
+}
+
+.login-form, .registration-form{
+    margin-bottom: 40px;
+}
+
+.registration-form input, .login-form input{
+    width: 300px;
+}
+
+textarea#message{
+    padding:5px;
+    min-height: 150px;
+    min-width: 300px;
+    text-align: left;
+}
+
+.registration-form .form-group, .login-form .form-group{
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.login-form input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.registration-screen, .login-screen, .contact-screen, .about-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.about-screen{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 45px 30px 45px;
+}
+
+.registration-screen p, .contact-screen p{
+    text-align: center;
+}
+
+.contact-screen p{
+    padding: 0px 60px 0px 60px;
+}
+
+button#login-submit, button#registration-submit, input#submit  {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  /*display: block;*/
+  width: 300px;
+  margin: 0 auto;
+}
+/*button#registration-submit{*/
+    /*width: 300px;*/
+/*}*/
+input#accept_tos{
+    /*width: 25px;*/
+    /*float: left;*/
+}
+
+input#submit{
+    width:100%;
+}
+
+input#submit:hover{
+    background-color:#4f81bd;
+}
+
+textarea#message{
+    /*height: 200px;*/
+}
+
+#message::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+#message::-webkit-input-placeholder {
+    text-align: center;
+}
+#message::-ms-input-placeholder {
+    text-align: center;
+}
+
+p.confirm-success{
+    color: white;
+    padding: 5px 2px 5px 2px;
+    background-color: #3e8f3e;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+p.email-confirm-success{
+    color: white;
+    padding: 5px 2px 5px 2px;
+    background-color: #3e8f3e;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
