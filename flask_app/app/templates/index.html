@@ -1,6 +1,24 @@
 {% extends 'base.html' %} {% block title %}Home{% endblock title %} {% block
 main %}
-<div class="content">
-  <h2>This is the main Flask blueprint</h2>
+
+<div id="showcase-row" class="row">
+  <div id="intro-left" class="col-lg-4">
+    <h1>intro-left</h1>
+  </div>
+  <!-- intro-left -->
+  <div id="intro-right" class="col-lg-8">
+    <h1>intro-right</h1>
+  </div>
+  <!-- intro-right -->
 </div>
+<!-- showcase-row -->
+<div id="slogan-row" class="row">
+  <h2 id="slogan">
+    "Analyze, Perfect and Visualize Your User Stories with GRIMM"
+  </h2>
+</div><!-- slogan-row -->
+
+<div id="introtext-row" class="row row-eq-height">
+    <h1>introtext</h1>
+</div><!-- introtext-row -->
 {% endblock main %}
