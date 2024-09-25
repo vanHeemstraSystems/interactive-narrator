@@ -1,4 +1,4 @@
-互动叙述者
+interactive-narrator
 
 # 互动旁白
 
