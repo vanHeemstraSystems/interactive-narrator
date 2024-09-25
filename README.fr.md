@@ -1,4 +1,4 @@
-narrateur-interactif
+interactive-narrator
 
 # Narrateur interactif
 
