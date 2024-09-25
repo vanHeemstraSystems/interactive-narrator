@@ -16,65 +16,188 @@ h6 {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar-header > a.navbar-brand{
-    padding-left: 30px;
-    padding-bottom: 20px;
-    font-weight: 400;
-    font-size: 28px;
-    font-family: 'Ubuntu', sans-serif;
+.navbar-header > a.navbar-brand {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 28px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar-header{
-    padding-left: 240px;
+.navbar-header {
+  padding-left: 240px;
 }
 
-#navbar-items{
-    width: 300px;
-    margin: auto;
+#navbar-items {
+  width: 300px;
+  margin: auto;
 }
-.navbar-inverse .navbar-brand{
-    color:#ECC348;
+.navbar-inverse .navbar-brand {
+  color: #ecc348;
 }
 
-.navbar-inverse{
-    min-height: 70px;
-    z-index: 1;
-    border: none;
+.navbar-inverse {
+  min-height: 70px;
+  z-index: 1;
+  border: none;
 }
 
 .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 70px;
-    font-size: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 70px;
+  font-size: 16px;
 }
 
-.navbar-inverse .navbar-brand{
-    padding-top: 22px;
-    /*padding-bottom: 0;*/
-    /*line-height: 70px;*/
-    font-size: 30px;
+.navbar-inverse .navbar-brand {
+  padding-top: 22px;
+  /*padding-bottom: 0;*/
+  /*line-height: 70px;*/
+  font-size: 30px;
 }
 
-.navbar-inverse .navbar-nav > li > a{
-    color:rgb(177, 178, 177);
-    font-weight: 600;
-    font-family: 'Ubuntu', sans-serif;
+.navbar-inverse .navbar-nav > li > a {
+  color: rgb(177, 178, 177);
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-#navbar.navbar-collapse.collapse.in{
-    background-color: #333;
+#navbar.navbar-collapse.collapse.in {
+  background-color: #333;
 }
 
 /* ####VISUALIZATON STYLING####*/
 
-
-#main{
-    /*background-color: #FFFFFF;*/
-    background-color: #332F30;
-    min-height: 100vh;
+canvas {
+  background-color: #ffffff;
 }
 
-.container-fluid{
- /*margin-top: 50px;*/
+#main {
+  /*background-color: #FFFFFF;*/
+  background-color: #332f30;
+  min-height: 100vh;
+}
+
+.container-fluid {
+  /*margin-top: 50px;*/
+}
+
+#showcase-row{
+    margin-top: 30px;
+    background-color:#332F30;
+}
+#slogan-row{
+    background-color:#332F30;
+    height: 50px;
+    margin: 20px 0px 30px 0px;
+}
+h2#slogan{
+    /*font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #ECC348;
+    text-align: center;
+
+}
+#intro-left{
+    color: #FFFFFF;
+    padding-right:10px;
+}
+#intro-text-left{
+    padding: 50px 10px 50px 50px;
+}
+h2#intro-text-left-slogan{
+    color: #ECC348;
+}
+h5#intro-text-left-slogan-subquote{
+    font-style: italic;
+}
+#intro-text-left ul > li{
+    padding-right: 0;
+}
+
+#intro-text-left{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#intro-text-left a.btn-info{
+    background-image: linear-gradient(to bottom, #378CFF 0px, #2aabd2 100%);
+    background-color: #378CFF;
+}
+
+#intro-text-left > ul{
+    padding-bottom: 20px;
+}
+#introtext-row{
+    /*display: flex;*/
+    margin-top: 20px;
+}
+#introtext-row p{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+#introtext-row .btn{
+    background-color: #ECC348;
+    color: #332F30;
+    font-weight: 600;
+}
+
+#introtext-row a:hover{
+    color: #FFFFFF;
+}
+
+#introtext-row h3{
+    color: #FFFFFF;
+    /*font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#introtext-row h5, h6{
+    color:#FFFFFF;
+}
+
+/* ####HOMEPAGE####*/
+#intro-left{
+    /*border: 1px solid silver;*/
+    /*height: 400px;*/
+}
+
+#welcome-content .page-header{
+    /*padding-top: 70px;*/
+    margin-top: 10px;
+}
+
+#main-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*CAROUSEL */
+#homepage-slider{
+    margin-bottom: 20px;
+}
+
+#homepage-slider .carousel-control{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.0) 0%, transparent 100%);
+    opacity: 1;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-inner > .item{
+    -webkit-transition: 3s ease-in-out left;
+    -moz-transition: 3s ease-in-out left;
+    -o-transition: 3s ease-in-out left;
+    transition: 3s ease-in-out left;
+}
+
+img#UU-logo{
+    float: left;
+    padding-left: 5px;
+    padding-top: 10px;
 }
