@@ -14,19 +14,19 @@ Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<ht
 
 Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
-Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+Basé sur "Flask SQLAlchemy" sur<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 Basé sur "Flask Web Development" sur<https://github.com/miguelgrinberg/flasky>
 
 Exécutez cette application comme suit :
 
-1) Entrez`flask_app` directory: `$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`python3 -m venv .venv
-3) Start the virtual environment and enter: `. .venv/bin/activate`4) Set the Flask App to app directory:`(.venv) $ export FLASK_APP=app`5) Set the Flask Environment to development:`(.venv) $ export FLASK_ENV=développement`6) Run the flask app:`(.venv) $ flask run\`\`\`
-7) Open the web interface as prompted
+1) Entrez`flask_app`annuaire:`$ cd flask_app`2) S'il n'existe pas, créez un environnement virtuel à l'intérieur du`flask_app`annuaire:`python3 -m venv .venv
+3) Start the virtual environment and enter: `. .venv/bin/activer`4) Set the Flask App to app directory:`(.venv) $ export FLASK_APP=app`5) Set the Flask Environment to development:`(.venv) $ export FLASK_ENV=développement`6) Run the flask app:`(.venv) $ exécution du flacon\`\`\`
+7) Ouvrez l'interface Web comme vous y êtes invité
 
 ## 100 - Introduction
 
-See [README.md](./100/README.md)
+Voir[README.md](./100/README.md)
 
 ## 200 - Exigences
 
