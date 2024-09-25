@@ -14,7 +14,7 @@
 
 بناء على "SpaCy" في<https://github.com/vanHeemstraSystems/spacy>
 
-استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 استنادًا إلى "Flask Web Development" في<https://github.com/miguelgrinberg/flasky>
 
@@ -26,7 +26,7 @@
 
 ## 100- مقدمة
 
-See [README.md](./100/README.md)
+يرى[README.md](./100/README.md)
 
 ## 200 - المتطلبات
 
