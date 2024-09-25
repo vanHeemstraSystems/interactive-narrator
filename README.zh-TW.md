@@ -10,7 +10,7 @@
 
 基於“Flask”<https://github.com/vanHeemstraSystems/flask>
 
-基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
+Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
 
 基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
 
