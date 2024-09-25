@@ -30,20 +30,52 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a href="/">
+              <img
+                src="img/UU-logo"
+                id="UU-logo"
+                alt="Utrecht University logo"
+                href="/"
+              />
+            </a>
             <a class="navbar-brand" href="/">Interactive Narrator</a>
           </div>
           <!--/.navbar-header -->
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools<span class="caret"></span></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  >Tools<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      href="https://garmlucassen.nl/post/158159491266/evaluating-grimm-user-stories"
+                      >QUS</a
+                    >
+                  </li>
+                  <li><a href="https://aqusa.nl">AQUSA</a></li>
+                  <li>
+                    <a href="https://github.com/marcelrobeer/visualnarrator"
+                      >Visual Narrator</a
+                    >
+                  </li>
+                  <li><a href="/register">Interactive Narrator</a></li>
+                  <li class="nav navbar-left"><a href="/about">About</a></li>
+                  <li class="nav navbar-left">
+                    <a href="/contact">Contact</a>
+                  </li>
+                </ul>
+                <!--/.dropdown-menu -->
               </li>
             </ul>
           </div>
           <!--/.navbar -->
         </div>
-        <!--/.container-fluid -->
+        <!--/.container-fluid #1 -->
       </nav>
+      <div class="container-fluid">{% block main %}{% endblock main %}</div>
+      <!--/.container-fluid #2 -->
     </div>
     <!-- /.main-->
   </body>
