@@ -1,21 +1,19 @@
 #!/usr/bin/env python
+from app.database import Base, engine
 from config import Config
 from flask import Flask
 from sqlalchemy.orm import sessionmaker
 
+# NOTE: sqlsession vs session usage: session is a login/logout browser session while sqlsession is a Session() object
+# Create the database tables with the engine
+Base.metadata.create_all(engine)
+Session = sessionmaker(bind=engine)
+sqlsession = Session()
+conn = engine.connect()
+
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
-
-    # Import the database
-    from app.database import Base, engine
-
-    # NOTE: sqlsession vs session usage: session is a login/logout browser session while sqlsession is a Session() object
-    # Create the database tables with the engine
-    Base.metadata.create_all(engine)
-    Session = sessionmaker(bind=engine)
-    sqlsession = Session()
-    conn = engine.connect()
 
     # Initialize Flask extensions here
 
