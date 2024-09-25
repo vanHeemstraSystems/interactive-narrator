@@ -2,19 +2,19 @@
 
 # الراوي التفاعلي
 
-> تصور قصص المستخدم الخاصة بك
+> Visualize your user stories
 
 استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
-Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
+بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
 
 استنادًا إلى "كيف يمكنك خدمة الملفات الثابتة في Flask؟" في<https://sentry.io/answers/serve-static-files-flask/>
 
 بناء على "SpaCy" في<https://github.com/vanHeemstraSystems/spacy>
 
-استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 استنادًا إلى "Flask Web Development" في<https://github.com/miguelgrinberg/flasky>
 
@@ -36,6 +36,6 @@ Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
 يرى[README.md](./300/README.md)
 
-## 400 - الخاتمة
+## 400 - Conclusion
 
 يرى[README.md](./400/README.md)
