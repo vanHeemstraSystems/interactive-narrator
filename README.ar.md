@@ -4,7 +4,7 @@
 
 > تصور قصص المستخدم الخاصة بك
 
-Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrator>
+استنادا إلى "الراوي التفاعلي" في<https://github.com/Gionimo/InteractiveNarrator>
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
@@ -14,7 +14,7 @@ Based on "Interative Narrator" at <https://github.com/Gionimo/InteractiveNarrato
 
 بناء على "SpaCy" في<https://github.com/vanHeemstraSystems/spacy>
 
-استنادا إلى "Flask SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+استنادا إلى "قارورة SQLAlchemy" في<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 استنادًا إلى "Flask Web Development" في<https://github.com/miguelgrinberg/flasky>
 
