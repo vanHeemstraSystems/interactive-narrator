@@ -12,7 +12,7 @@
 
 基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
-基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
+Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
 基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
