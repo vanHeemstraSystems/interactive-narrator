@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 from app import sqlsession
 from app.form import RegistrationForm
+from app.extensions import db
+from app.models.user import User
 from app.register import bp
 from flask import render_template, request
 from passlib.hash import sha256_crypt
