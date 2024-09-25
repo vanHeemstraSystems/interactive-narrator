@@ -8,11 +8,11 @@
 
 "विजुअल नैरेटर' पर आधारित<https://github.com/marcelrobeer/visualnarrator>
 
-"फ्लास्क" पर आधारित<https://github.com/vanHeemstraSystems/flask>
+Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 
-Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
+"आप फ्लास्क में स्टेटिक फ़ाइलें कैसे परोसते हैं?" पर आधारित पर<https://sentry.io/answers/serve-static-files-flask/>
 
-"स्पासी" पर आधारित<https://github.com/vanHeemstraSystems/spacy>
+Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
 "फ्लास्क SQLAlchemy" पर आधारित<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
@@ -21,8 +21,8 @@ Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers
 इस एप्लिकेशन को इस प्रकार चलाएँ:
 
 1) दर्ज करें`flask_app`निर्देशिका:`$ cd flask_app`2) यदि अस्तित्व में नहीं है, तो अंदर एक आभासी वातावरण बनाएं`flask_app`निर्देशिका:`python3 -m venv .venv
-3) Start the virtual environment and enter: `. .venv/bin/सक्रिय करें`4) Set the Flask App to app directory:`(.venv) $ निर्यात FLASK_APP=ऐप`5) Set the Flask Environment to development:`(.venv) $ निर्यात FLASK_ENV=विकास`6) Run the flask app:`(.venv) $ flask run\`\`\`
-7) Open the web interface as prompted
+3) Start the virtual environment and enter: `. .venv/bin/सक्रिय करें`4) Set the Flask App to app directory:`(.venv) $ निर्यात FLASK_APP=ऐप`5) Set the Flask Environment to development:`(.venv) $ निर्यात FLASK_ENV=विकास`6) Run the flask app:`(.venv) $ फ्लास्क रन\`\`\`
+7) संकेतानुसार वेब इंटरफ़ेस खोलें
 
 ## 100 - परिचय
 
@@ -38,4 +38,4 @@ Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers
 
 ## 400 - निष्कर्ष
 
-देखना[README.md](./400/README.md)
+See [README.md](./400/README.md)
