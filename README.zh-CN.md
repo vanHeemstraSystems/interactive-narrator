@@ -1,12 +1,12 @@
 互动叙述者
 
-# Interactive Narrator
+# 互动旁白
 
 > 可视化您的用户故事
 
 基于“交互式叙述者”<https://github.com/Gionimo/InteractiveNarrator>
 
-Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
+基于“视觉叙述者”<https://github.com/marcelrobeer/visualnarrator>
 
 基于“Flask”<https://github.com/vanHeemstraSystems/flask>
 
@@ -34,7 +34,7 @@ Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
 ## 300 - 构建我们的应用程序
 
-See [README.md](./300/README.md)
+看[README.md](./300/README.md)
 
 ## 400 - 结论
 
