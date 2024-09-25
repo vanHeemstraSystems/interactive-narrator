@@ -1,4 +1,4 @@
-互動敘述者
+interactive-narrator
 
 # 互動旁白
 
@@ -6,15 +6,15 @@
 
 基於“互動式敘述者”<https://github.com/Gionimo/InteractiveNarrator>
 
-基於“視覺敘述者”<https://github.com/marcelrobeer/visualnarrator>
+Based on "Visual Narrator' at <https://github.com/marcelrobeer/visualnarrator>
 
 基於“Flask”<https://github.com/vanHeemstraSystems/flask>
 
 基於“如何在 Flask 中提供靜態文件？”在<https://sentry.io/answers/serve-static-files-flask/>
 
-基於“SpaCy”<https://github.com/vanHeemstraSystems/spacy>
+Based on "SpaCy" at <https://github.com/vanHeemstraSystems/spacy>
 
-Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqlalchemy>
+基於“Flask SQLAlchemy”，位於<https://github.com/vanHeemstraSystems/flask-sqlalchemy>
 
 基於“Flask Web 開發”，位於<https://github.com/miguelgrinberg/flasky>
 
@@ -32,10 +32,10 @@ Based on "Flask SQLAlchemy" at <https://github.com/vanHeemstraSystems/flask-sqla
 
 看[README.md](./200/README.md)
 
-## 300 - 建立我們的應用程式
+## 300 - Building Our Application
 
-看[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
-## 400 - 結論
+## 400 - Conclusion
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
