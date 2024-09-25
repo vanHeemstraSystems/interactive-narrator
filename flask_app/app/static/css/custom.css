@@ -1,0 +1,17 @@
+/*CSS document for Interactive Narrator*/
+
+body {
+  background-color: #332f30;
+  height: 98vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
