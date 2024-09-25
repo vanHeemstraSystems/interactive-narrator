@@ -159,6 +159,29 @@ h5#intro-text-left-slogan-subquote{
     color:#FFFFFF;
 }
 
+#qus-introtext, #aqusa-introtext, #vn-introtext, #in-introtext{
+    /*border: 1px solid silver;*/
+    padding: 30px 40px 30px 40px;
+    /*align-items: stretch;*/
+}
+#qus-introtext{
+    /*background-color: #ECC348;*/
+    border-top: 8px solid #ECC348;
+}
+#aqusa-introtext{
+
+    border-top: 8px solid #378CFF;
+    /*background-color: #378CFF;*/
+}
+#vn-introtext{
+    /*background-color: #ECC348;*/
+    border-top: 8px solid #ECC348;
+}
+#in-introtext{
+    /*background-color: #378CFF;*/
+    border-top: 8px solid #378CFF;
+}
+
 /* ####HOMEPAGE####*/
 #intro-left{
     /*border: 1px solid silver;*/
