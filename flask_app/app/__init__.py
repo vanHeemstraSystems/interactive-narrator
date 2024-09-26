@@ -24,7 +24,7 @@ def create_app(config_class=Config):
     app.register_blueprint(main_bp)
 
     from app.register import bp as register_bp
-    app.register_blueprint(register_bp)
+    app.register_blueprint(register_bp, url_prefix='/register')
 
     from app.users import bp as users_bp
     app.register_blueprint(users_bp, url_prefix='/users')
