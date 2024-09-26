@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from app.database import Base, engine
+from app.db_engine import Base, engine
 from app.extensions import db
 from config import Config
 from flask import Flask
