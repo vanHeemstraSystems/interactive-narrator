@@ -1,6 +1,6 @@
 narrateur-interactif
 
-# Interactive Narrator
+# Narrateur interactif
 
 > Visualisez vos user stories
 
@@ -10,7 +10,7 @@ Basé sur "Visual Narrator" de<https://github.com/marcelrobeer/visualnarrator>
 
 Basé sur "Flask" à<https://github.com/vanHeemstraSystems/flask>
 
-Based on "How Do You Serve Static Files in Flask?" at <https://sentry.io/answers/serve-static-files-flask/>
+Basé sur « Comment servez-vous des fichiers statiques dans Flask ? » à<https://sentry.io/answers/serve-static-files-flask/>
 
 Basé sur "SpaCy" à<https://github.com/vanHeemstraSystems/spacy>
 
@@ -33,7 +33,7 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Créer notre application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 
