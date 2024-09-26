@@ -10,7 +10,7 @@ from app.register import bp
 from flask import render_template, request
 from passlib.hash import sha256_crypt
 
-@bp.route('/register', methods=['GET', 'POST'])
+@bp.route('/', methods=['GET', 'POST'])
 def do_register():
   try:
     form = RegistrationForm(request.form)
