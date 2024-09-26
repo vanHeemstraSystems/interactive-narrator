@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-from flask import render_template
-from app.users import bp
 from app.extensions import db
 from app.models.user import User
+from app.users import bp
+from flask import render_template
 
 @bp.route('/')
 def index():
