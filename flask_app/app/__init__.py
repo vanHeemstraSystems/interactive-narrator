@@ -26,6 +26,9 @@ def create_app(config_class=Config):
     from app.register import bp as register_bp
     app.register_blueprint(register_bp)
 
+    from app.users import bp as users_bp
+    app.register_blueprint(users_bp, url_prefix='/users')
+
     # @app.route('/test/')
     # def test_page():
     #     return '<h1>Testing the Flask Application Factory Pattern</h1>'
