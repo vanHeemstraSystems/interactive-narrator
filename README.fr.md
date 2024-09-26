@@ -1,6 +1,6 @@
 narrateur-interactif
 
-# Narrateur interactif
+# Interactive Narrator
 
 > Visualisez vos user stories
 
