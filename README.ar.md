@@ -8,7 +8,7 @@
 
 استنادا إلى "الراوي المرئي" في<https://github.com/marcelrobeer/visualnarrator>
 
-Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
+بناء على "قارورة" في<https://github.com/vanHeemstraSystems/flask>
 
 استنادًا إلى "كيف يمكنك خدمة الملفات الثابتة في Flask؟" في<https://sentry.io/answers/serve-static-files-flask/>
 
@@ -25,7 +25,7 @@ Based on "Flask" at <https://github.com/vanHeemstraSystems/flask>
 10) بدلاً من ذلك، قم بتشغيل واجهة سطر أوامر القارورة:`(.venv) $ flask shell`11) تنفيذ أي أوامر قارورة: >>>
 12) الاستخدام`exit()`للخروج من واجهة سطر الأوامر.
 
-## 100- مقدمة
+## 100 - Introduction
 
 يرى[README.md](./100/README.md)
 
